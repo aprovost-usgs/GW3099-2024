@@ -180,13 +180,11 @@ exercises-completed/xt3d/xt3d-prt/
 exercises-completed/gwt/ex1/
 exercises-completed/parallel/base/
 exercises-completed/parallel/parallel/
-exercises/parallel/base/
-exercises/parallel/parallel/
-exercises/pywatershed/pywatershed/
+exercises/pywatershed/pywatershed_repo
 exercises/pywatershed/step1_processes/
 exercises/pywatershed/step2_multi-process_models/
-exercises-completed/pywatershed/step1_processes/
-exercises-completed/pywatershed/step2_multi-process_models/
+exercises/pywatershed/step3_mf6_api/
+exercises/pywatershed/step4_flow_graph/
 exercises-working/
 
 # presentations

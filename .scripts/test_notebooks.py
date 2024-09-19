@@ -14,10 +14,10 @@ DIRS = (
     pl.Path("../exercises-completed/gwf_advanced/").resolve(),
     pl.Path("../exercises-completed/gwt/").resolve(),
     pl.Path("../exercises-completed/prt/").resolve(),
-    pl.Path("../exercises-completed/csub/").resolve(),
+    pl.Path("../exercises/csub/").resolve(),
+    pl.Path("../exercises/modflowapi/").resolve(),
     pl.Path("../exercises-completed/modflowapi/").resolve(),
-    pl.Path("../exercises-completed/parallel/").resolve(),
-    pl.Path("../exercises-completed/pywatershed/").resolve(),
+    pl.Path("../exercises/parallel/").resolve(),
     pl.Path("../exercises/netcdf/").resolve(),
     pl.Path("../exercises/PEST/notebooks").resolve(),
     pl.Path("../exercises/pywatershed").resolve(),
@@ -26,6 +26,8 @@ SKIP_NOTEBOOKS = {
     "step0_netcdf_output": ("win32",),
     "step1_netcdf_input": ("win32",),
     "step2_netcdf_ncf": ("win32",),
+    "splitting_modflow6_models": ("win32", "darwin", "linux"),
+    "step3_mf6_api": ("win32"),
 }
 
 GIT_RESET_DIRS = (
